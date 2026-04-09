@@ -5,15 +5,16 @@ const filmData = {
   subtitle:
     'A minimal proof of concept: a timed hotspot appears over the main video, opens a side clip, then returns the viewer to the saved point in the main film.',
   mainVideo: {
+  	type: "local",
     src: '/videos/main-film.mp4',
     poster: '',
   },
   clips: {
     clipsUsed: {
-      id: 'clipsUsed',
+      id: 'clip-Stainless',
       title: 'Warehouse Detail — Stainless Steel Clips',
       description:
-        'This is where a short architectural detail film would play. Closing or finishing the clip returns the viewer to the main film.',
+        'This is where a short detail film would play. Closing or finishing the clip returns the viewer to the main film.',
       src: '/videos/stainless-clips.mp4',
     },
   },
@@ -21,7 +22,7 @@ const filmData = {
     {
       id: 'clips-used-hotspot',
       label: 'See the clips used',
-      targetClipId: 'clipsUsed',
+      targetClipId: 'clip-Stainless',
       start: 3,
       end: 12,
       xPercent: 67,
