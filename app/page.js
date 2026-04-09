@@ -11,10 +11,10 @@ const filmData = {
   },
   clips: {
     clipsUsed: {
-      id: 'clip-Stainless',
+      id: 'clipsUsed',
       title: 'Warehouse Detail — Stainless Steel Clips',
       description:
-        'This is where a short detail film would play. Closing or finishing the clip returns the viewer to the main film.',
+        'This is where a short architectural detail film would play. Closing or finishing the clip returns the viewer to the main film.',
       src: '/videos/stainless-clips.mp4',
     },
   },
@@ -22,7 +22,7 @@ const filmData = {
     {
       id: 'clips-used-hotspot',
       label: 'See the clips used',
-      targetClipId: 'clip-Stainless',
+      targetClipId: 'clipsUsed',
       start: 3,
       end: 12,
       xPercent: 67,
