@@ -5,7 +5,6 @@ const filmData = {
   subtitle:
     'A minimal proof of concept: a timed hotspot appears over the main video, opens a side clip, then returns the viewer to the saved point in the main film.',
   mainVideo: {
-  	type: "local",
     src: '/videos/main-film.mp4',
     poster: '',
   },
